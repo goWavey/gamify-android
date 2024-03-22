@@ -38,9 +38,19 @@
       <version>0.1.0-alpha</version>
     </dependency>
     <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.16.0</version>
+    </dependency>
+    <dependency>
       <groupId>me.relex</groupId>
       <artifactId>circleindicator</artifactId>
       <version>2.1.6</version>
+    </dependency>
+    <dependency>
+      <groupId>io.insert-koin</groupId>
+      <artifactId>koin-core</artifactId>
+      <version>3.5.3</version>
     </dependency>
     <dependency>
       <groupId>androidx.databinding</groupId>
