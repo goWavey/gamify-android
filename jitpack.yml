@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=gamify-android.aar"
+  - mvn install:install-file $FILE -DgroupId=com.gowavey -DartifactId=gamify-android -Dversion=0.1.0-alpha -Dpackaging=aar -DpomFile=pom.xml
