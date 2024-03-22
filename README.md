@@ -26,13 +26,13 @@ dependencyResolutionManagement {
 #### Groovy
 ```groovy
 dependencies {
-   implementation 'com.github.goWavey:gamify:$currentVersion'
+   implementation 'com.github.goWavey:gamify-android:$currentVersion'
 }
 ```
 #### Kotlin DSL
 ```kotlin
 dependencies {
-   implementation("com.github.goWavey:gamify:$currentVersion")
+   implementation("com.github.goWavey:gamify-android:$currentVersion")
 }
 ```
 ### Step 3: Initialize SDK
@@ -42,7 +42,6 @@ class MainApp : Application() {
     override fun onCreate() {
         super.onCreate()
         GoWaveyFactory.initialize(
-            context = this,
             appKey = YOUR_APP_KEY,
             memberId = YOUR_MEMBER_ID
         )
