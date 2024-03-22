@@ -36,17 +36,11 @@ dependencies {
 }
 ```
 ### Step 3: Initialize SDK
-#### Add the following snippet in your Application class
 ```kotlin
-class MainApp : Application() {
-    override fun onCreate() {
-        super.onCreate()
-        GoWaveyFactory.initialize(
-            appKey = YOUR_APP_KEY,
-            memberId = YOUR_MEMBER_ID
-        )
-    }
-}
+GoWaveyFactory.initialize(
+   appKey = YOUR_APP_KEY,
+   memberId = YOUR_MEMBER_ID
+)
 ```
 ## Usage
 #### Update activity
